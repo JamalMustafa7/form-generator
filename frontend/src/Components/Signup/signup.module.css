@@ -1,0 +1,130 @@
+.signup{
+    min-height:100vh;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.survey-info{
+    flex-grow: 1;
+    background-color: #434bdf;
+    padding: 10px;
+    color:white;
+    min-width:340px;
+}
+.logo-and-socials{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    gap:12px;
+}
+.socials :nth-child(n){
+    width:20px;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.728);
+    cursor: pointer;
+    
+}
+.logo img{
+    width:50px;
+}
+.socials :nth-child(n):hover :nth-child(n){
+    color:rgba(255, 255, 255, 0.528);
+}
+.signup-img{
+    width:max-content;
+    margin: 0 auto;
+}
+.signup-img img{
+    width:400px;
+}
+.test-type{
+    font-size: 2.5rem;
+    width:max-content;
+    margin: 16px auto;
+}
+.test-info{
+    color:rgba(255, 255, 255, 0.728);
+    max-width: 450px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+}
+.copyright{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.528);
+    margin-top: 1.2rem;
+}
+.copyright a{
+    text-decoration: none;
+    color:inherit;
+}
+.signup-info{
+    flex-grow: 1;
+    min-width: 340px;
+    padding:60px 10px 10px 10px;
+    
+}
+.signup-info-child{
+    max-width:max-content;
+    margin: 0 auto;
+}
+.signup-info form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.signup-info input[type="text"],.signup-info input[type="email"],input[type="number"]{
+    outline: none;
+    height: 35px;
+    width:320px;
+    padding:0 5px;
+}
+.signup-info input:focus{
+    border: 1px solid #434bdf;
+}
+.signup-info input[type="number"]
+{
+    width:60px;
+}
+.count{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.528);
+    margin-bottom: 0.5rem;
+}
+.advise{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0.7rem;
+}
+.age-container{
+    width:320px;
+    display: flex;
+    gap:2rem;
+    align-items: center;
+}
+.file-input-container{
+    display: flex;
+    width:320px;
+    gap:2rem;
+    align-items: center;
+}
+.upload-file-button{
+    border-radius:3px;
+    cursor: pointer;
+    border:none;
+    padding: 6px;
+    color:white;
+    background-color: #434bdf;
+}
+@media screen and (max-width:360px) {
+    .signup-img img{
+        width: 280px;
+    }
+}
